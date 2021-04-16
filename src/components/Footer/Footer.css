@@ -1,0 +1,42 @@
+.footer-container {
+  margin-top: 100vh;
+  max-height: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100vw;
+  background: linear-gradient(90deg, rgb(51, 80, 69) 0%, rgb(42, 58, 49) 100%);
+  color: #fff;
+}
+
+.footer-intro {
+  padding: 10px 5px;
+}
+
+.footer-icons {
+  width: 100vw;
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 45px;
+  text-decoration: none;
+}
+
+.footer-icons a {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.footer-icons i {
+  padding: 10px 15px;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.footer-email-link {
+  text-align: center;
+  padding: 5px;
+  margin-left: 40vw;
+  margin-right: 40vw;
+}

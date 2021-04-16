@@ -1,0 +1,82 @@
+.section-wrapper {
+  background-size: 100%;
+  height: 100%;
+  width: 100vw;
+  padding-bottom: 50px;
+  display: flexbox;
+  padding-top: 50px;
+}
+
+.stack-icons {
+  padding-bottom: 25px;
+}
+
+.stack-icons .devicons {
+  display: flex;
+  font-size: 50px;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 15px;
+}
+
+.moreIcons .devicons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.devicons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.devicons i {
+  border-radius: 50%;
+  padding: 15px;
+  border-image-width: 40px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  transition: box-shadow 0.6s linear;
+  margin: 0.5em; /* Increased margin since the box-shado expands outside the element, like outline */
+}
+
+.icon-row-1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.icon-row-2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+/* @keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+*/
+.devicons i:hover {
+  box-shadow: 0px 0px 0px 2px #2c292a;
+}
