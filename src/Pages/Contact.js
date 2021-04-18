@@ -4,7 +4,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
-import Me from "../assets/gitPhoto.jpeg";
+// import Me from "../assets/gitPhoto.jpeg";
+import Me from "assets/gitPhoto.jpeg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -52,7 +53,10 @@ export default function Contact() {
         <Grid xs={12} md={6}>
           <Paper>
             <div style={{ paddingTop: "10px" }}>
-              <img src={Me} className={classes.imgDetails}></img>
+              <img
+                src="assets/gitPhoto.jpeg"
+                className={classes.imgDetails}
+              ></img>
             </div>
             <br />
             <div className={classes.send}>
@@ -82,61 +86,4 @@ export default function Contact() {
       </Grid>
     </section>
   );
-}
-
-{
-  /* <Formik
-        initialValues={{
-          email: "ereznice@gmail.com",
-          password: "",
-        }}
-        validate={(values) => {
-          const errors = {};
-          if (!values.email) {
-            errors.email = "Required";
-          } else if (
-            !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)
-          ) {
-            errors.email = "Invalid email address";
-          }
-          return errors;
-        }}
-        onSubmit={(values, { setSubmitting }) => {
-          setTimeout(() => {
-            setSubmitting(false);
-            alert(JSON.stringify(values, null, 2));
-          }, 500);
-        }}
-      >
-        {({ submitForm, isSubmitting }) => (
-          <Form>
-            <Field
-              component={TextField}
-              name="email"
-              type="email"
-              label="Email"
-            />
-            <br />
-            <Field
-              component={TextField}
-              type="password"
-              label="Password"
-              name="password"
-              multiline
-              rowsMax={4}
-            />
-            {isSubmitting && <LinearProgress />}
-            <br />
-            <Button
-              variant="contained"
-              color="primary"
-              disabled={isSubmitting}
-              onClick={submitForm}
-            >
-              Submit
-            </Button>
-          </Form>
-        )}
-      </Formik> 
-    import { Formik, Form, Field } from "formik";*/
 }

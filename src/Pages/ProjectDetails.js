@@ -2,7 +2,8 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
-import video from "../assets/VeilDemo.mp4";
+// import video from "../assets/VeilDemo.mp4";
+import video from "assets/VeilDemo.mp4";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -68,7 +69,7 @@ export default function ProjectDetails() {
             <Paper className={classes.paper}>
               <h4 className={classes.videoTitle}>Veil Shark</h4>
               <video width="500px" height="300px" controls="controls">
-                <source src={video} />
+                <source src="assets/VeilDemo.mp4" />
               </video>
             </Paper>
           </Grid>
