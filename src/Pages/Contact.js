@@ -5,7 +5,7 @@ import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 // import Me from "../assets/gitPhoto.jpeg";
-import Me from "assets/gitPhoto.jpeg";
+// import Me from "assets/gitPhoto.jpeg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -54,7 +54,7 @@ export default function Contact() {
           <Paper>
             <div style={{ paddingTop: "10px" }}>
               <img
-                src="assets/gitPhoto.jpeg"
+                src="/public/assets/gitPhoto.jpeg"
                 className={classes.imgDetails}
               ></img>
             </div>
