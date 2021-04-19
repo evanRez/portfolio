@@ -1,15 +1,18 @@
 import React, { Component } from "react";
 import "./Hero.css";
-import forest from "../../assets/forest-bridge.jpeg";
+// import forest from "../../assets/forest-bridge.jpeg";
 
 import { makeStyles } from "@material-ui/styles";
+
+const bgUrl =
+  "https://portfolio-assets-reznicek.s3.amazonaws.com/assets/forest-bridge.jpeg";
 
 const useStyles = makeStyles((theme) => ({
   typographyStyles: {
     flex: 1,
   },
   heroWrapper: {
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${forest})`,
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${bgUrl})`,
 
     backgroundSize: "cover",
     height: "100vh",

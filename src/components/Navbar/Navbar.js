@@ -11,7 +11,10 @@ import Button from "@material-ui/core/Button";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { withRouter } from "react-router-dom";
 // import pdf from "assets/Resume_Reznicek_2021.pdf";
-import pdf from "../../assets/resume-reznicek.pdf";
+// import pdf from "../../assets/resume-reznicek.pdf";
+
+const resume =
+  "https://portfolio-assets-reznicek.s3.amazonaws.com/assets/resume-reznicek.pdf";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -150,7 +153,7 @@ const Header = (props) => {
               <Button
                 variant="contained"
                 color="secondary"
-                href={pdf}
+                href={resume}
                 target="_blank"
               >
                 Resume

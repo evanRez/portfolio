@@ -5,7 +5,10 @@ import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 // import Me from "../assets/gitPhoto.jpeg";
-import Me from "../assets/git-photo.jpeg";
+// import Me from "../assets/git-photo.jpeg";
+
+const profileUrl =
+  "https://portfolio-assets-reznicek.s3.amazonaws.com/assets/git-photo.jpeg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -53,7 +56,11 @@ export default function Contact() {
         <Grid xs={12} md={6}>
           <Paper>
             <div style={{ paddingTop: "10px" }}>
-              <img src={Me} className={classes.imgDetails} alt="profile"></img>
+              <img
+                src={profileUrl}
+                className={classes.imgDetails}
+                alt="profile"
+              ></img>
             </div>
             <br />
             <div className={classes.send}>
