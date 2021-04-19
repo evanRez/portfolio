@@ -29,28 +29,27 @@ export default function About() {
             <div className={classes.paragraph}>
               <p>
                 I have been interested in IT ever since I started my first
-                MySpace page in 2009. It was my first glimpse of what was behind
+                MySpace page in 2008. It was my first glimpse of what was behind
                 the scenes of a webpage, and how useful it was to be able to
-                spot tags and insert code snippets. That moment in time really
-                stuck with me. As I progressed in school I simultaneously
-                learned about the perils climate change, and how important it
-                was to help steer the future to a more sustainable path. So when
-                it came time to pick a major for university I put my interest in
-                IT on hold to pursue Environmental Science.{" "}
+                spot tags and insert code snippets. I didn't realize at the time
+                how that moment would stick with me. As I progressed in school I
+                simultaneously learned about the perils climate change, and how
+                important it was to help steer the future to a more sustainable
+                path. So when it came time to pick a major for university I put
+                my interest in IT on hold to pursue Environmental Science.{" "}
               </p>
               <br />
               <p>
                 Fast forward through a Science degree and starting what I
                 thought would be my dream job, as an Environmental Scientist for
-                the Depart of Environmental Quality, I found myself incomplete
-                and unsure how to advance my career. While I loved the idea of
-                helping to protect the environment, the day to day work of
-                interpreting regulations and reading applications was a far cry
-                from the Science Degree I had worked so hard for and frankly, a
-                different set of problem solving skills. My work life become
-                dull, uninspired and beauracratic. I ended up taking time to
-                plot out my future and rediscovered my love of programming along
-                the way.{" "}
+                the Depart of Environmental Quality, I found myself unsure how
+                to advance my career. While I loved the idea of helping to
+                protect the environment, the day to day work of interpreting
+                regulations and proof-reading applications was a far cry from
+                the Science Degree I had just earned. My work life met all the
+                qualifications on paper, yet I still somehow felt unfulfilled. I
+                decided to plot out a new course for my future and rediscovered
+                my love of programming along the way.{" "}
               </p>
               <br />
               <p>
@@ -60,11 +59,10 @@ export default function About() {
                 experience. However, I quickly learned companies aren't willing
                 to hand the reigns to their databases without a proven track
                 record and years of experience. But I was still absolutely
-                exstatic that I taught myself a 'new to me' technology so
-                quickly and proved to myself I could do this. I then
-                transitioned to JavaScript and learned some of the basics as I
-                found that I could convey my understanding of IT much more
-                easily with a visable interface.{" "}
+                exstatic that I taught myself a 'new to me' technology. But most
+                importantly I proved to myself I could do this. I then
+                transitioned to JavaScript and found it easier to measure my
+                progress when I had a visual interface in front of me.{" "}
               </p>
               <br />
               <p>

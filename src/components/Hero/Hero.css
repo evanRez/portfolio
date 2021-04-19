@@ -2,7 +2,7 @@
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("/src/assets/forest-bridge.jpeg"); */
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/public/assets/forest-bridge.jpeg");
+    url("../../assets/forest-bridge.jpeg");
 
   background-size: cover;
   height: 100vh;

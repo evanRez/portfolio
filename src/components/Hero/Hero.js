@@ -1,11 +1,40 @@
 import React, { Component } from "react";
 import "./Hero.css";
+import forest from "../../assets/forest-bridge.jpeg";
+
+import { makeStyles } from "@material-ui/styles";
+
+const useStyles = makeStyles((theme) => ({
+  typographyStyles: {
+    flex: 1,
+  },
+  heroWrapper: {
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${forest})`,
+
+    backgroundSize: "cover",
+    height: "100vh",
+    width: "100vw",
+    opacity: "80%",
+    backgroundRepeat: "no-repeat",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  heroText: {
+    textAlign: "center",
+    position: "relative",
+    fontSize: "2rem",
+    color: "#d9d9d9",
+    textShadow: "4px 4px 4px rgba(0, 0, 0, 1)",
+  },
+}));
 
 export default function Hero() {
+  const classes = useStyles();
   return (
     <section>
-      <div className="heroWrapper">
-        <div className="heroText">
+      <div className={classes.heroWrapper}>
+        <div className={classes.heroText}>
           <h1>
             Hi, I'm Evan Reznicek, <br />
             Web App Developer.
