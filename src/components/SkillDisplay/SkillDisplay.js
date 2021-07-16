@@ -1,7 +1,7 @@
 // import { CardContent } from "@material-ui/core";
-import React, { Component } from "react";
+import React from "react";
 import "./SkillDisplay.css";
-import CardStorage from "../Cards/CardStorage";
+// import CardStorage from "../Cards/CardStorage";
 
 import { makeStyles } from "@material-ui/styles";
 
@@ -45,10 +45,7 @@ export default function SkillDisplay() {
           "linear-gradient(0deg, rgba(51, 80, 69, 0.2) 0%, rgba(255,165,0, 0.2)100%)",
       }}
     >
-      <p className={classes.sectionTitle}>Current Projects</p>
-      <div className="fake-display">
-        <CardStorage />
-      </div>
+      <div className="fake-display"></div>
 
       <div className={classes.skillsText}>
         <p className="stack-icons">

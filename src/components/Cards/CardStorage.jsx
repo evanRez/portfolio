@@ -1,8 +1,8 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
-import CardHeader from "@material-ui/core/CardHeader";
+
 import { makeStyles } from "@material-ui/styles";
-import { Typography } from "@material-ui/core";
+
 import ProjectCard from "./ProjectCard";
 
 const useStyles = makeStyles(() => ({
