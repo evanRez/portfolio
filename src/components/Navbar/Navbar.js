@@ -14,7 +14,7 @@ import { withRouter } from "react-router-dom";
 // import pdf from "../../assets/resume-reznicek.pdf";
 
 const resume =
-  "https://portfolio-assets-reznicek.s3.amazonaws.com/assets/resume-reznicek.pdf";
+  "https://portfolio-assets-reznicek.s3.amazonaws.com/assets/Resume_Reznicek_2021.docx";
 
 const useStyles = makeStyles((theme) => ({
   root: {

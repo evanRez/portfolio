@@ -8,6 +8,13 @@ import Button from "@material-ui/core/Button";
 // import LHG from "../assets/lakehousegame-mockup.png";
 // import Bookmark from "../assets/Bookmark-mockweb.png";
 
+const BlogrImg =
+  "https://portfolio-assets-reznicek.s3.amazonaws.com/assets/blogr.png";
+const LHG =
+  "https://portfolio-assets-reznicek.s3.amazonaws.com/assets/lakehousegame-mockup.png";
+const Bookmark =
+  "https://portfolio-assets-reznicek.s3.amazonaws.com/assets/Bookmark-mockweb.png";
+
 // import video from "../assets/veil-demo.mp4";
 
 // const videoUrl =
@@ -86,24 +93,21 @@ const useStyles = makeStyles((theme) => ({
 const projectArr = [
   {
     name: "Blogr",
-    mainImg:
-      "https://portfolio-assets-reznicek.s3.amazonaws.com/assets/blogr.png",
+    mainImg: BlogrImg,
     summary:
       "My first full page level CSS challenge. It taught me so much about patience and styling. Made with react and typical CSS styling sheets. This version was the first site I made into a mobile friendly and responsively designed site. ",
     site: "https://blogr-front-end.netlify.app/",
   },
   {
     name: "Lake House Games",
-    mainImg:
-      "https://portfolio-assets-reznicek.s3.amazonaws.com/assets/lakehousegames-mockup.png",
+    mainImg: LHG,
     summary:
       "I pushed myself to create some fun games to play when on vacation, (not yet mobile supported). There are some fairly tricky javascript game logic code blocks that I am proud of, such as searching and finding matches in connect four as well as keeping track of state when rolling dice and keeping score for Greedy Dice.",
     site: "https://lakehousegames.netlify.app/",
   },
   {
     name: "Bookmark",
-    mainImg:
-      "https://portfolio-assets-reznicek.s3.amazonaws.com/assets/Bookmark-mockup.png",
+    mainImg: Bookmark,
     summary:
       "I went for a slightly stronger single page from the blogr side. It will soon include valid email screening, a slider similar to a carousel, and mobile styling that will change aspects of the layout. The project is still being worked on but should be completed in the coming week or so.",
     site: "blank",
